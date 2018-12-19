@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(51, 0, 34);
+}
+
+.header{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+#pixie{
+    position:fixed;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#280049', endColorstr='#257EB7',GradientType=0 ); /* IE6-9 */
+}
+
+.fullpage{
+    min-height:100vh;
+    background-image: url(../images/dots.png);
+    background-size: contain;
+    overflow-x: hidden;    
+}
+.fullpage-bg{
+    background: linear-gradient(to bottom, transparent 0%, #280049 50%);
+}
+.logotype{
+    font-size: 1.5em;   
+}
+
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;    
+}
+
+.content{
+    font-family: 'Cuprum', sans-serif;
+    color: #f5f5f5;
+}
+
+
+
+.about{
+    border: 1px solid rgb(48, 48, 48);
+    border: 1px solid rgba(134, 134, 134, 0.5);
+    background-color: rgba(134, 134, 134, 0.1);
+    height: 70vh;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.folio{
+    border: 1px solid rgb(48, 48, 48);
+    border: 1px solid rgba(134, 134, 134, 0.5);
+    background-color: rgba(134, 134, 134, 0.1);
+    height: 70vh;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.contact{
+    border: 1px solid rgb(48, 48, 48);
+    border: 1px solid rgba(134, 134, 134, 0.5);
+    background-color: rgba(134, 134, 134, 0.1);
+    height: 70vh;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
